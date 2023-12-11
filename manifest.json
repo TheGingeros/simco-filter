@@ -4,14 +4,24 @@
     "version": "1.0",
   
     "description": "Filters the sales chat in SimCompanies web game for easier browsing.",
-  
+    "homepage_url": "https://github.com/TheGingeros/simco-filter",
     "icons": {
     
     },
-  
+
+    "permissions": [ 
+        "activeTab"
+    ],
+
+    "browser_action": {
+        "default_icon": "icons/toolbar_icon.png",
+        "default_title": "Simco Filter",
+        "default_popup": "popup.html"
+      },
+
     "content_scripts": [
       {
-        "matches": ["*://simcompanies.com/messages/chatroom_Sales/*"],
+        "matches": ["*://www.simcompanies.com/messages/chatroom_Sales/"],
         "js": ["simco-filter.js"]
       }
     ]
