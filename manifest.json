@@ -17,7 +17,7 @@
     "browser_action": {
         "default_icon": "icons/toolbar_icon_96.png",
         "default_title": "Simco Filter",
-        "default_popup": "popup.html"
+        "default_popup": "popup/choose_item.html"
       },
 
     "content_scripts": [
