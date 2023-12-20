@@ -18,11 +18,11 @@ document.addEventListener("click", (e) => {
 function beastNameToURL(beastName) {
 switch (beastName) {
 case "Item1":
-return browser.runtime.getURL("beasts/frog.jpg");
+return browser.runtime.getURL("items/re-3_apples.png");
 case "Item2":
-return browser.runtime.getURL("beasts/snake.jpg");
+return browser.runtime.getURL("items/re-4_oranges.png");
 case "Item3":
-return browser.runtime.getURL("beasts/turtle.jpg");
+return browser.runtime.getURL("items/re-66_seeds.png");
 }
 }
 
