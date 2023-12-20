@@ -29,3 +29,21 @@ button[type="reset"] {
 button[type="reset"]:hover {
   background-color: #eaea9d;
 }
+#item-list {
+    list-style-type: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.item-content {
+    display: none;
+}
+
+.item-image {
+    max-width: 100px;
+    max-height: 100px;
+}
